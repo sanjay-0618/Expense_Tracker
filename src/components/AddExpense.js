@@ -17,7 +17,7 @@ function AddExpense() {
       setMessage("Please enter all values");
       return;
     }
-    await axios.post("http://127.0.0.1:5000/add_expense", {
+  await axios.post("https://expense-backend-psi.vercel.app/add_expense", {
       amount,
       category: finalCategory,
       date: new Date().toISOString()

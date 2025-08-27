@@ -12,7 +12,7 @@ function ChatPanel() {
     setMessages([...messages, newMsg]);
     setInput("");
 
-    const res = await axios.post("http://127.0.0.1:5000/chat", {
+  const res = await axios.post("https://expense-backend-psi.vercel.app/chat", {
       message: input,
     });
 

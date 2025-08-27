@@ -10,7 +10,7 @@ function AnalyseExpense() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://127.0.0.1:5000/get_expenses").then((res) => {
+    axios.get("https://expense-backend-psi.vercel.app/get_expenses").then((res) => {
       setExpenses(res.data);
     });
   }, []);

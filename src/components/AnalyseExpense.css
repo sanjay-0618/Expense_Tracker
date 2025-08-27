@@ -1,0 +1,34 @@
+/* AnalyseExpense.css - Styles for the analytics/charts page */
+
+.analyse-container {
+  background: rgba(0, 23, 45, 0.98);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px 32px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.analyse-title {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.analyse-chart {
+  background: #00172D;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px 16px;
+  margin-top: 12px;
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
